@@ -18,13 +18,7 @@ public class DadosAPI {
         return terms_of_use;
     }
 
-    public long getTime_last_update_unix() {
-        return time_last_update_unix;
-    }
 
-    public long getTime_next_update_unix() {
-        return time_next_update_unix;
-    }
 
     public String getTime_last_update_utc() {
         return time_last_update_utc;
@@ -52,11 +46,6 @@ public class DadosAPI {
     private String terms_of_use;
 
     @Expose(serialize = true, deserialize = true)
-    private long time_last_update_unix;
-    @Expose(serialize = true, deserialize = true)
-
-    private long time_next_update_unix;
-    @Expose(serialize = true, deserialize = true)
 
     private String time_last_update_utc;
 
@@ -76,8 +65,6 @@ public class DadosAPI {
                 "result='" + result + '\'' +
                 ", documentation='" + documentation + '\'' +
                 ", terms_of_use='" + terms_of_use + '\'' +
-                ", time_last_update_unix=" + time_last_update_unix +
-                ", time_next_update_unix=" + time_next_update_unix +
                 ", time_last_update_utc='" + time_last_update_utc + '\'' +
                 ", time_next_update_utc='" + time_next_update_utc + '\'' +
                 ", base_code='" + base_code + '\'' +

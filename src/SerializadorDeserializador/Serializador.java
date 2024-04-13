@@ -8,7 +8,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Serializador {
-
     public DadosAPI serializandoEmClasse(String objJsonString) throws IOException {
         Gson gson = new GsonBuilder().setPrettyPrinting().excludeFieldsWithoutExposeAnnotation().create();
         DadosAPI dadosAPI = gson.fromJson(objJsonString, DadosAPI.class);
