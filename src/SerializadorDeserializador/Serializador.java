@@ -8,12 +8,12 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Serializador {
-    public DadosAPI serializandoEmClasse(String objJsonString) throws IOException {
+    public ValoresMonetarios serializandoEmClasse(Object object, String objJsonString) throws IOException {
         Gson gson = new GsonBuilder().setPrettyPrinting().excludeFieldsWithoutExposeAnnotation().create();
-        DadosAPI dadosAPI = gson.fromJson(objJsonString, DadosAPI.class);
+        ValoresMonetarios valoresMonetarios = gson.fromJson(objJsonString, ValoresMonetarios.class);
         FileWriter escritor = new FileWriter("dadosAPI.json");
-        escritor.write(gson.toJson(dadosAPI));
+        escritor.write(gson.toJson(valoresMonetarios));
         escritor.close();
-        return dadosAPI;
+        return valoresMonetarios;
     }
 }

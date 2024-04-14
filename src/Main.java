@@ -1,14 +1,12 @@
-import Conexao.Requisicao;
-import ManipulacaoDados.DadosAPI;
 import SerializadorDeserializador.Deserializador;
 import SerializadorDeserializador.MapeandoMoedasValores;
 import SerializadorDeserializador.Serializador;
-import com.google.gson.internal.LinkedTreeMap;
+import SerializadorDeserializador.ValoresMonetarios;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
-import java.io.FileWriter;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
@@ -188,17 +186,27 @@ public class Main {
                 "}";;
 
         Deserializador objJsonDeseralizado = new Deserializador();
-
         MapeandoMoedasValores moedasValores = new MapeandoMoedasValores();
-        var mapa = moedasValores.mapeandoChavesValores(objJsonDeseralizado, objJson);
-        for (String chave:moedasValores.)
-        FileWriter escritor = new FileWriter("novo.txt");
-        escritor.write(strJson.toString());
-        escritor.close();
+        Map<String, Double> valoresMonetarios = moedasValores.mapeandoChavesValores(objJsonDeseralizado, objJson);
+        /*Iterator iterator=  valoresMonetarios.entrySet().iterator();
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());;
+        }*/
+        System.out.println(valoresMonetarios);
+        Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().setPrettyPrinting().create();
+        String objJson2 = gson.toJson(valoresMonetarios);
+        ValoresMonetarios valoresMonetarios1 = gson.fromJson(objJson2, ValoresMonetarios.class);
+        System.out.println(valoresMonetarios1);
+        /*FileWriter escritor = new FileWriter("novo.json");
+        escritor.write(objJson2);
+        escritor.close();*/
         Serializador serializador = new Serializador();
-        DadosAPI teste = serializador.serializandoEmClasse(objJson);
-        System.out.println(teste.toString());
-        System.out.println(teste.getConversion_rates().get("BRL"));
 
+
+        ValoresMonetarios valoresMonetarios2;
+        valoresMonetarios2 = new ValoresMonetarios();
+        ValoresMonetarios teste2 = serializador.serializandoEmClasse(valoresMonetarios2, objJson);
+
+        System.out.println(teste2);
     }
 }
