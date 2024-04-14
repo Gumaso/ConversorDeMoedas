@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d4e1b7c-76bc-4b33-ba29-46864d290ad4" name="Changes" comment="Criando nossa classe ValoresMonetarios, extraindo e armazenando dados monetarios das moedas necessárias">
-      <change afterPath="$PROJECT_DIR$/src/SerializadorDeserializador/ValoresMonetarios.java" afterDir="false" />
+    <list default="true" id="5d4e1b7c-76bc-4b33-ba29-46864d290ad4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Conexao/Requisicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conexao/Requisicao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ManipulacaoDados/DadosAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ManipulacaoDados/DadosAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SerializadorDeserializador/Deserializador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializadorDeserializador/Deserializador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializadorDeserializador/MapeandoMoedasValores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializadorDeserializador/MapeandoMoedasValores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SerializadorDeserializador/MapeandoMoedasValores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mapeadores/MapValoresMonetarios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SerializadorDeserializador/Serializador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializadorDeserializador/Serializador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SerializadorDeserializador/ValoresMonetarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mapeadores/ValoresMonetarios.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +43,14 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/gusta/IdeaProjects/DesafioConversorDeMoedas",
+    "last_opened_file_path": "C:/Users/gusta/IdeaProjects/ScreenMatch",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
   <component name="RunManager">
@@ -96,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712979795083</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Criando nossa classe ValoresMonetarios, extraindo e armazenando dados monetarios das moedas necessárias">
+      <option name="closed" value="true" />
+      <created>1713054475973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713054475973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

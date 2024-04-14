@@ -1,4 +1,4 @@
-package SerializadorDeserializador;
+package Mapeadores;
 
 import com.google.gson.annotations.Expose;
 

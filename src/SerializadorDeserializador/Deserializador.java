@@ -16,12 +16,12 @@ public class Deserializador {
      * @return Um objeto da classe DadosAPI com os dados desserializados.
      * @throws com.google.gson.JsonSyntaxException se o JSON não for válido ou não puder ser desserializado para DadosAPI.
      */
-    public DadosAPI serializandoJsonEmString(String objJson) {
+    public DadosAPI deserializandoJsonObjetoDadosAPI(String objJson) {
         // Cria uma instância do Gson com configuração para pretty printing
         Gson gson = new Gson().newBuilder().setPrettyPrinting().create();
-
         // Desserializa a string JSON para um objeto da classe DadosAPI
-        return gson.fromJson(objJson, DadosAPI.class);
+        DadosAPI dadosAPI = gson.fromJson(objJson, DadosAPI.class);
+        return dadosAPI;
     }
 }
 
