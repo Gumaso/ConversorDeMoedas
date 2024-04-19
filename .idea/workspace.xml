@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.5022599" />
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d4e1b7c-76bc-4b33-ba29-46864d290ad4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecoes/NumeroNegativo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Conexao/Requisicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conexao/Requisicao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mapeadores/ValoresMonetarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mapeadores/ValoresMonetarios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SerializadorDeserializador/Deserializador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializadorDeserializador/Deserializador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializadorDeserializador/MapeandoMoedasValores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mapeadores/MapValoresMonetarios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SerializadorDeserializador/Serializador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializadorDeserializador/Serializador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializadorDeserializador/ValoresMonetarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mapeadores/ValoresMonetarios.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +45,29 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Cores.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/gusta/IdeaProjects/ScreenMatch",
+    "last_opened_file_path": "C:/Users/gusta/IdeaProjects/Testes2",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Cores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cores" />
+      <module name="DesafioConversorDeMoedas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DesafioConversorDeMoedas" />
@@ -64,6 +78,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Cores" />
       </list>
     </recent_temporary>
   </component>

@@ -18,8 +18,8 @@ public class Serializador {
         escritor.close();
         return valoresMonetarios;
     }
-    public String objetoJson(Requisicao requisicao) throws IOException, InterruptedException {
+    public String objetoJson(Requisicao requisicao, String moedaSolicitada) throws IOException, InterruptedException {
         Gson gson = new Gson().newBuilder().setPrettyPrinting().create();
-        return gson.toJson(requisicao.responseJson());
+        return gson.toJson(requisicao.responseJson(moedaSolicitada));
     }
 }

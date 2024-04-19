@@ -10,9 +10,9 @@ public class Requisicao {
 
 
 
-    public String responseJson() throws IOException, InterruptedException {
+    public String responseJson(String moedaSolicitada) throws IOException, InterruptedException {
         HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder(URI.create("https://v6.exchangerate-api.com/v6/17f8bea8870b0f71abbf970d/latest/EUR")).build();
+        HttpRequest request = HttpRequest.newBuilder(URI.create("https://v6.exchangerate-api.com/v6/17f8bea8870b0f71abbf970d/latest/" + moedaSolicitada)).build();
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
         return response.body();
     }

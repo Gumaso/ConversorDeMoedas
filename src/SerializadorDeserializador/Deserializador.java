@@ -2,6 +2,7 @@ package SerializadorDeserializador;
 
 import ManipulacaoDados.DadosAPI;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 /**
  * A classe Deserializador é responsável por deserializar objetos JSON para objetos da classe DadosAPI.
@@ -18,7 +19,7 @@ public class Deserializador {
      */
     public DadosAPI deserializandoJsonObjetoDadosAPI(String objJson) {
         // Cria uma instância do Gson com configuração para pretty printing
-        Gson gson = new Gson().newBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().setPrettyPrinting().create();
         // Desserializa a string JSON para um objeto da classe DadosAPI
         DadosAPI dadosAPI = gson.fromJson(objJson, DadosAPI.class);
         return dadosAPI;
