@@ -10,14 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d4e1b7c-76bc-4b33-ba29-46864d290ad4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/excecoes/NumeroNegativo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ManipulacaoDados/EntradaDeDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecoes/OpcoesSimultaneas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conexao/Requisicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conexao/Requisicao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculos/Cores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mapeadores/ValoresMonetarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mapeadores/ValoresMonetarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializadorDeserializador/Deserializador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializadorDeserializador/Deserializador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializadorDeserializador/Serializador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializadorDeserializador/Serializador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Cores.executor": "Run",
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -62,7 +59,7 @@
 }]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Cores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cores" />
+      <option name="MAIN_CLASS_NAME" value="Calculos.Cores" />
       <module name="DesafioConversorDeMoedas" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713054475973</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refinando projeto">
+      <option name="closed" value="true" />
+      <created>1713492174591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713492174591</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +145,33 @@
     <MESSAGE value="Criando a classe que extrairá os dados da API" />
     <MESSAGE value="Criando nossa classe Serializadora" />
     <MESSAGE value="Criando nossa classe ValoresMonetarios, extraindo e armazenando dados monetarios das moedas necessárias" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando nossa classe ValoresMonetarios, extraindo e armazenando dados monetarios das moedas necessárias" />
+    <MESSAGE value="Refinando projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refinando projeto" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ManipulacaoDados/EntradaDeDados.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
