@@ -4,9 +4,9 @@ precisam realizar conversões monetárias frequentes.
 
 # Desafio Conversor de Moedas
 
-![Build Status](https://github.com/seu-usuario/nome-do-repositorio/actions/workflows/build.yml/badge.svg)
-![Version](https://img.shields.io/github/v/release/seu-usuario/nome-do-repositorio?include_prereleases)
-![License](https://img.shields.io/github/license/seu-usuario/nome-do-repositorio)
+![Build Status](https://github.com/seu-usuario/Gumaso/actions/workflows/build.yml/badge.svg)
+![Version](https://img.shields.io/github/v/release/seu-usuario/Gumaso?include_prereleases)
+![License](https://img.shields.io/github/license/seu-usuario/Gumaso)
 
 ## Descrição
 
@@ -37,10 +37,4 @@ Este projeto é um conversor de moedas que permite converter valores entre difer
 
 Para realizar uma conversão de moedas, você pode utilizar a classe `ConversorDeMoedas`.
 
-Exemplo de uso:
-
-```java
-ConversorDeMoedas conversor = new ConversorDeMoedas();
-double valorConvertido = conversor.converter(100.0, "USD", "BRL");
-System.out.println("Valor convertido: " + valorConvertido);
 
