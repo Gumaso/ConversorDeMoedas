@@ -4,9 +4,9 @@ precisam realizar conversões monetárias frequentes.
 
 # Desafio Conversor de Moedas
 
-![Build Status](https://github.com/seu-usuario/Gumaso/actions/workflows/build.yml/badge.svg)
-![Version](https://img.shields.io/github/v/release/seu-usuario/Gumaso?include_prereleases)
-![License](https://img.shields.io/github/license/seu-usuario/Gumaso)
+![Build Status](https://github.com/Gumaso/ConversorDeMoedas/actions/workflows/build.yml/badge.svg)
+![Version](https://img.shields.io/github/v/release/Gumaso/ConversorDeMoedas?include_prereleases)
+![License](https://img.shields.io/github/license/Gumaso/ConversorDeMoedas)
 
 ## Descrição
 
