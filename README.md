@@ -3,11 +3,6 @@ O projeto é um conversor de moedas em Java, projetado para oferecer uma soluç�
 precisam realizar conversões monetárias frequentes.
 
 # Desafio Conversor de Moedas
-
-![Build Status](https://github.com/Gumaso/ConversorDeMoedas/actions/workflows/build.yml/badge.svg)
-![Version](https://img.shields.io/github/v/release/Gumaso/ConversorDeMoedas?include_prereleases)
-![License](https://img.shields.io/github/license/Gumaso/ConversorDeMoedas)
-
 ## Descrição
 
 Este projeto é um conversor de moedas que permite converter valores entre diferentes moedas. Além disso, o projeto mantém um registro de todas as conversões feitas em um arquivo JSON.
